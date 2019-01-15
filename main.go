@@ -17,15 +17,15 @@ var port = flag.Int("port", 8000, "The port to listen on; default is 8000.")
 
 func main() {
 
-	fmt.Printf(stringutil.Reverse("test") + "\n")
+	// fmt.Printf(stringutil.Reverse("test") + "\n")
 
-	robotgo.MoveMouse(200, 300)
-	time.Sleep(500 * time.Millisecond)
-	robotgo.MoveMouse(400, 400)
-	time.Sleep(500 * time.Millisecond)
-	robotgo.MoveMouse(600, 400)
+	// robotgo.MoveMouse(200, 300)
+	// time.Sleep(500 * time.Millisecond)
+	// robotgo.MoveMouse(400, 400)
+	// time.Sleep(500 * time.Millisecond)
+	// robotgo.MoveMouse(600, 400)
 
-	fmt.Printf("hello, mouse\n")
+	// fmt.Printf("hello, mouse\n")
 
 	// initServer(addr)
 
